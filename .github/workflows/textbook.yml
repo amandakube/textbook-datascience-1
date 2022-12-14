@@ -1,8 +1,9 @@
 name: Textbook
 
 on:
-  release:
-    types: [published]
+  push:
+    branches:
+      - draft_build
 
 permissions:
   contents: read
