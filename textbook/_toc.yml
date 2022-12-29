@@ -16,7 +16,7 @@ chapters:
   - title: "Operations"
     file: 03/1/Operations
   - title: "Assignment Statements"
-    file: 03/2/Names
+    file: 03/2/Assignments
   - title: "Data Types"
     file: 03/3/DataTypes
   - title: "Comparisons"
