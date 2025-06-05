@@ -1,0 +1,22 @@
+digraph {
+	A [label="Feature X ≤ 5
+(Root Node)" fillcolor=lightblue shape=box style=filled]
+	B [label="Feature Y ≤ 2
+(Internal Node)" fillcolor=lightgreen shape=box style=filled]
+	C [label="Class = 0
+(Leaf Node)" fillcolor=lightyellow shape=ellipse style=filled]
+	D [label="Class = 1
+(Leaf Node)" fillcolor=lightyellow shape=ellipse style=filled]
+	E [label="Feature Z ≤ 3
+(Internal Node)" fillcolor=lightgreen shape=box style=filled]
+	F [label="Class = 1
+(Leaf Node)" fillcolor=lightyellow shape=ellipse style=filled]
+	G [label="Class = 0
+(Leaf Node)" fillcolor=lightyellow shape=ellipse style=filled]
+	A -> B [label=True]
+	A -> E [label=False]
+	B -> C [label=True]
+	B -> D [label=False]
+	E -> F [label=True]
+	E -> G [label=False]
+}
