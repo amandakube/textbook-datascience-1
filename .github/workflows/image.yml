@@ -33,7 +33,7 @@ jobs:
       # Currently only supports jupyter-service image
 
       - name: Log in to the Container registry
-        uses: docker/login-action@v1.10.0
+        uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
